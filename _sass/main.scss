@@ -1,6 +1,10 @@
 @import url("https://unpkg.com/flowbite@1.4.3/dist/flowbite.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
 
-html {
-  font-family: 'Noto Sans Thai',sans-serif;
+html, body {
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.content-container {
+  min-height: 50vh;
 }

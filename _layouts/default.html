@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} | Lalatainer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="icon" href="/assets/images/favicon.ico">
@@ -11,9 +11,11 @@
 
   <body class="dark">
     {% include navigation.html %}
-    <div>
+    <div class="content-container">
       {{ content }}
     </div>
+
+    {% include footer.html %}
   </body>
 
 </html>
